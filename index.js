@@ -7,12 +7,12 @@ const { Console } = require('console')
 const app = express()
 const port = process.env.PORT || 3000
 
-const bluePrismUserName = 'admin' // Your Blue Prism User name
-const bluePrismPassword = 'bp$BP668160#' // Your Blue Prism Password
+const bluePrismUserName = 'Your Blue Prism User name' // 
+const bluePrismPassword = 'Your Blue Prism Password' // 
 
 var WSDL = soap.WSDL
 
-var url = 'http://GH-HP-ENVY-17:8181/ws/CalculatorBO?wsdl' // your url 
+var url = 'http://your url to your blue prism wsdl endpoint' //  
 
 const http_options = {
     wsdl_headers:{'Connection':'keep-alive'}
